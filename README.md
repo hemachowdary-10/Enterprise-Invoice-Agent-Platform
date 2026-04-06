@@ -210,12 +210,6 @@ RAW.INVOICES
 
 ---
 
-## 💼 Resume Highlight
-
-> Built an AI-driven multi-agent invoice processing system capable of extracting structured data from PDFs, images, XML, and CSV formats, designed for integration into cloud-based analytics platforms.
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome. Please open an issue to discuss proposed changes.
