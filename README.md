@@ -117,6 +117,7 @@ docker compose up -d
 pip install -r requirements.txt
 ```
 
+---
 
 ### 4. Add Sample Invoices
 
@@ -133,13 +134,15 @@ Supported formats:
 * `.xml`
 * `.csv`
 
-
+---
 
 ### 5. Run the Pipeline
 
-  bash id="l1q4kc"
+```bash id="l1q4kc"
 python services/workflow_service.py
+```
 
+---
 
 ## 📤 Output
 
@@ -161,21 +164,23 @@ This output can be:
 * Sent to cloud storage (GCS)
 * Loaded into Snowflake for analytics
 
+---
+
 ## 🔄 Integration with Data Platform (Recommended)
 
 To integrate this system into a modern data stack:
 
 1. Save JSON outputs to:
 
-id="b6q2sq"
+```id="b6q2sq"
 data/invoices/
-
+```
 
 2. Load into Snowflake:
 
 ```id="u33vlw"
 RAW.INVOICES
-
+```
 
 3. Transform using dbt:
 
@@ -183,6 +188,7 @@ RAW.INVOICES
 * Join with shipment data
 * Build cost analytics models
 
+---
 
 ## 📊 Example Use Cases
 
@@ -192,6 +198,7 @@ RAW.INVOICES
 * 📉 Carrier performance benchmarking
 * 🧾 Automated financial ingestion
 
+---
 
 ## 🚀 Future Enhancements
 
@@ -201,7 +208,17 @@ RAW.INVOICES
 * Integration with real-time pipelines (Pub/Sub, IICS)
 * Automated reconciliation with logistics data
 
+---
+
+## 💼 Resume Highlight
+
+> Built an AI-driven multi-agent invoice processing system capable of extracting structured data from PDFs, images, XML, and CSV formats, designed for integration into cloud-based analytics platforms.
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome. Please open an issue to discuss proposed changes.
+
+---
 
