@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pandas
+pdfplumber
+pytesseract
+pillow
+lxml
+requests
+scikit-learn
+prometheus-client
